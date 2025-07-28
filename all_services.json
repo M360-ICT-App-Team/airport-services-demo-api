@@ -1,0 +1,132 @@
+{
+    "success": true,
+    "message": "All services",
+    "data": [
+        {
+            "id": 1,
+            "name": "Pick & Drop",
+            "sub_services": {
+                "seat": [
+                    {
+                        "data": "5",
+                        "price": "500"
+                    },
+                    {
+                        "data": "7",
+                        "price": "1000"
+                    },
+                    {
+                        "data": "10",
+                        "price": "1200"
+                    },
+                    {
+                        "data": "15",
+                        "price": "1500"
+                    }
+                ],
+                "air_condition": [
+                    {
+                        "data": "AC",
+                        "price": "1000"
+                    },
+                    {
+                        "data": "Non AC",
+                        "price": "500"
+                    }
+                ],
+                "route": [
+                    {
+                        "data": "Outside City",
+                        "price": "1500"
+                    },
+                    {
+                        "data": "Inside City",
+                        "price": "1000"
+                    }
+                ],
+                "Distance": [
+                    {
+                        "data": "10",
+                        "price": "1000"
+                    },
+                    {
+                        "data": "20",
+                        "price": "1500"
+                    },
+                    {
+                        "data": "30",
+                        "price": "2000"
+                    },
+                    {
+                        "data": "40",
+                        "price": "2500"
+                    },
+                    {
+                        "data": "50",
+                        "price": "3000"
+                    }
+                ],
+                "category": [
+                    {
+                        "data": "Luxury",
+                        "price": "2000"
+                    },
+                    {
+                        "data": "Economy",
+                        "price": "1000"
+                    },
+                    {
+                        "data": "Shared",
+                        "price": "500"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 2,
+            "name": "Meet & Assist",
+            "sub_services": [
+                {
+                    "data": "Normal MAA",
+                    "price": "1500"
+                },
+                {
+                    "data": "Premium MAA",
+                    "price": "2000"
+                },
+                {
+                    "data": "Premium + VOA MAA",
+                    "price": "3000"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Lounge Access",
+            "sub_services": [
+                {
+                    "data": "Premium",
+                    "price": "7000"
+                },
+                {
+                    "data": "Luxury",
+                    "price": "8000"
+                },
+                {
+                    "data": "Economy",
+                    "price": "5000"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Baggage Wrapping",
+            "sub_services": [
+                {
+                    "data": "Baggage Wrapping",
+                    "price": "500"
+                }
+            ]
+        }
+    ]
+}
