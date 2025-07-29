@@ -1,0 +1,10 @@
+{
+    "success": true,
+    "message": "All services",
+    "data": {
+        "upcomming": "5",
+        "completed": "10",
+        "incomplete": "3",
+        "cancelled": "2"
+    }
+}
