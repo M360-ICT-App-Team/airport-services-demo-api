@@ -5,6 +5,8 @@
         "upcomming": "5",
         "completed": "10",
         "incomplete": "3",
-        "cancelled": "2"
+        "cancelled": "2",
+        "monthly_earning": "3500",
+        "total_earning": "12850"
     }
 }
