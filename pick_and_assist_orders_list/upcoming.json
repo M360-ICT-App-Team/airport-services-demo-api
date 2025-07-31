@@ -1,53 +1,20 @@
 {
-    "success" : true,
-    "message" : "Upcoming orders",
-    "data" : [
+    "success": true,
+    "message": "Order list retrieved successfully",
+    "data": [
         {
             "id": 1,
-            "date_time" : "2025-08-03T12:55:36.547Z",
-            "order_no": "RHS-1234",
+            "date_time": "2025-08-02T08:30:00.000Z",
+            "order_no": "RHS-2001",
             "status": "Upcoming",
-            "amount": "2500",
-            "origin" : {
+            "amount": "3500",
+            "origin": {
+                "address": "Gulshan 1",
+                "city": "Dhaka"
+            },
+            "destination": {
                 "address": "Hazrat Shahjalal International Airport",
-                "city": "Dhaka",
-                "latitude": "23.847931256544918",
-                "longitude": "90.40571946545373"
-            },
-            "destination" : {
-                "address": "Banani",
-                "city": "Dhaka",
-                "latitude": "23.79290916971965",
-                "longitude": "90.40613258319588"
-            },
-            "package": {
-                "seat": 3,
-                "air_condition": "AC",
-                "route": "Inside City",
-                "category": "Shared"
-            },
-            "customer": {
-                "name": "John Doe",
-                "phone": "01711234567"
-            }
-        },
-        {
-            "id": 2,
-            "date_time" : "2025-08-05T04:20:36.547Z",
-            "order_no": "RHS-1235",
-            "status": "Upcoming",
-            "amount": "3000",
-            "origin" : {
-                "address": "Uttara",
-                "city": "Dhaka",
-                "latitude": "23.873909377059785",
-                "longitude": "90.40038287075008"
-            },
-            "destination" : {
-                "address": "Hazrat Shahjalal International Airport",
-                "city": "Dhaka",
-                "latitude": "23.847931256544918",
-                "longitude": "90.40571946545373"
+                "city": "Dhaka"
             },
             "package": {
                 "seat": 5,
@@ -56,37 +23,108 @@
                 "category": "Luxury"
             },
             "customer": {
-                "name": "Steve Jobs",
-                "phone": "01811234567"
+                "name": "Michael Scott",
+                "phone": "01712345678"
+            }
+        },
+        {
+            "id": 2,
+            "date_time": "2025-08-03T14:15:00.000Z",
+            "order_no": "RHS-2002",
+            "status": "Upcoming",
+            "amount": "1800",
+            "origin": {
+                "address": "Hazrat Shahjalal International Airport",
+                "city": "Dhaka"
+            },
+            "destination": {
+                "address": "Mirpur 10",
+                "city": "Dhaka"
+            },
+            "package": {
+                "seat": 3,
+                "air_condition": "Non-AC",
+                "route": "Inside City",
+                "category": "Shared"
+            },
+            "customer": {
+                "name": "Pam Beesly",
+                "phone": "01887654321"
             }
         },
         {
             "id": 3,
-            "date_time" : "2025-08-07T06:20:36.547Z",
-            "order_no": "RHS-1236",
+            "date_time": "2025-08-04T05:45:00.000Z",
+            "order_no": "RHS-2003",
             "status": "Upcoming",
-            "amount": "4000",
-            "origin" : {
-                "address": "Kalakandi",
-                "city": "Dhaka",
-                "latitude": "23.657535971658312",
-                "longitude": "90.35851743969063"
-            },
-            "destination" : {
+            "amount": "4200",
+            "origin": {
                 "address": "Hazrat Shahjalal International Airport",
-                "city": "Dhaka",
-                "latitude": "23.847931256544918",
-                "longitude": "90.40571946545373"
+                "city": "Dhaka"
+            },
+            "destination": {
+                "address": "Chittagong Port",
+                "city": "Chittagong"
             },
             "package": {
                 "seat": 7,
-                "air_condition": "Non-AC",
+                "air_condition": "AC",
                 "route": "Inter City",
                 "category": "Economy"
             },
             "customer": {
-                "name": "Abraham Lincoln",
-                "phone": "01511234567"
+                "name": "Jim Halpert",
+                "phone": "01911223344"
+            }
+        },
+        {
+            "id": 4,
+            "date_time": "2025-08-05T11:20:00.000Z",
+            "order_no": "RHS-2004",
+            "status": "Upcoming",
+            "amount": "5500",
+            "origin": {
+                "address": "Banani",
+                "city": "Dhaka"
+            },
+            "destination": {
+                "address": "Hazrat Shahjalal International Airport",
+                "city": "Dhaka"
+            },
+            "package": {
+                "seat": 10,
+                "air_condition": "AC",
+                "route": "Inside City",
+                "category": "Luxury"
+            },
+            "customer": {
+                "name": "Dwight Schrute",
+                "phone": "01655667788"
+            }
+        },
+        {
+            "id": 5,
+            "date_time": "2025-08-06T09:00:00.000Z",
+            "order_no": "RHS-2005",
+            "status": "Upcoming",
+            "amount": "3200",
+            "origin": {
+                "address": "Dhanmondi 27",
+                "city": "Dhaka"
+            },
+            "destination": {
+                "address": "Hazrat Shahjalal International Airport",
+                "city": "Dhaka"
+            },
+            "package": {
+                "seat": 5,
+                "air_condition": "Non-AC",
+                "route": "Inside City",
+                "category": "Shared"
+            },
+            "customer": {
+                "name": "Angela Martin",
+                "phone": "01544332211"
             }
         }
     ]
