@@ -1,0 +1,62 @@
+{
+    "success": true,
+    "message": "Order details retrieved successfully",
+    "data": {
+        "order_id": 1,
+        "order_details": {
+            "date_time": "2025-08-02T08:30:00.000Z",
+            "order_no": "RHS-2001",
+            "status": "Upcoming",
+            "amount": "3500"
+        },
+        "route_details": {
+            "origin": {
+                "address": "Gulshan 1",
+                "city": "Dhaka",
+                "country": "Bangladesh",
+                "postal_code": "1212",
+                "coordinates": {
+                    "latitude": 23.7805735,
+                    "longitude": 90.4193257
+                }
+            },
+            "destination": {
+                "address": "Hazrat Shahjalal International Airport",
+                "city": "Dhaka",
+                "country": "Bangladesh",
+                "postal_code": "1229",
+                "coordinates": {
+                    "latitude": 23.8433333,
+                    "longitude": 90.3977778
+                }
+            }
+        },
+        "package": {
+            "seat": 5,
+            "air_condition": "AC",
+            "route_type": "Inside City",
+            "category": "Luxury",
+            "distance": "25"
+        },
+        "customer_details": {
+            "main_customer": {
+                "name": "Michael Scott",
+                "phone": "01712345678",
+                "email": "michael.scott@example.com"
+            },
+            "passengers": [
+                {
+                    "name": "Dwight Schrute",
+                    "phone": "01712345679",
+                    "email": "dwight.schrute@example.com"
+                },
+                {
+                    "name": "Pam Beesly",
+                    "phone": "01712345680",
+                    "email": "pam.beesly@example.com"
+                }
+            ]
+        },
+        "special_instructions": "Please call customer upon arrival at pickup location. Passenger has 2 large suitcases and 1 hand carry."
+    }
+}
