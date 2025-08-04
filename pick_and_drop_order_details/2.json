@@ -1,0 +1,73 @@
+{
+    "success": true,
+    "message": "Order details retrieved successfully",
+    "data": {
+        "id": 2,
+        "order_details": {
+            "date_time": "2025-08-03T14:15:00.000Z",
+            "order_no": "RHS-2002",
+            "status": "Completed",
+            "amount": "4200"
+        },
+        "type": "dropoff",
+        "address": "Banani 11, Dhaka",
+        "latitude": 23.7946943,
+        "longitude": 90.4064532,
+        "flight_number": "BG789",
+        "flight_time": "2025-08-03T16:30:00.000Z",
+        "total_traveler": 3,
+        "rate": {
+            "id": 12,
+            "name": "Premium Package",
+            "price": "450.00",
+            "status": true,
+            "created_by": 1,
+            "created_by_name": "Srabon Admin",
+            "created_at": "2025-07-31T09:15:22.340Z",
+            "items": [
+                {
+                    "id": 4,
+                    "name": "AC",
+                    "type": "Air Condition"
+                },
+                {
+                    "id": 8,
+                    "name": "Private",
+                    "type": "Category"
+                },
+                {
+                    "id": 7,
+                    "name": "Inside City",
+                    "type": "Route"
+                },
+                {
+                    "id": 10,
+                    "name": "4",
+                    "type": "Seat"
+                },
+                {
+                    "id": 12,
+                    "name": "7km",
+                    "type": "Distance"
+                }
+            ]
+        },
+        "contact_email": "jim.halpert@example.com",
+        "contact_phone": "01798765432",
+        "passengers": [
+            {
+                "name": "Jim Halpert",
+                "passport_no": "BD123456"
+            },
+            {
+                "name": "Karen Filippelli",
+                "passport_no": "BD123457"
+            },
+            {
+                "name": "Andy Bernard",
+                "passport_no": "BD123458"
+            }
+        ],
+        "note": "Passengers arriving from international flight. Please have bottled water ready in vehicle."
+    }
+}
